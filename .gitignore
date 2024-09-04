@@ -1,0 +1,28 @@
+# more detailed .gitignore file: https://github.com/github/gitignore/blob/main/Python.gitignore
+
+# Mac file
+.DS_Store
+
+# Vs Code setup
+.vscode/
+
+# Byte-compiled
+__pycache__/
+
+# tests
+.pytest_cache
+.coverage
+
+# Distribution / packaging
+*.egg-info/
+
+# Sphinx documentation
+docs/_build/
+docs/_static/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# data
+# *.pkl
+# *.csv

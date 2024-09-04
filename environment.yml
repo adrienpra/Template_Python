@@ -1,0 +1,12 @@
+# https://saturncloud.io/blog/how-to-create-a-conda-environment-based-on-a-yaml-file-a-guide-for-data-scientists/
+# https://stackoverflow.com/questions/70851048/does-it-make-sense-to-use-conda-poetry
+name: template
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11.7
+  # - mamba
+  # - conda-lock
+  - pip  # pip must be mentioned explicitly, or conda-lock will fail
+  - poetry=1.*  # or 1.1.*, or no version at all -- as you want
